@@ -42,7 +42,7 @@
                 "label": "General",
                 "items": ["ref-glossary", "ref-errors"]
             },
-	          {
+            {
                 "type": "category",
                 "label": "Template Migration",
                 "items": ["ref-migrate-0.13-0.20","ref-migrate-0.20-0.21"]

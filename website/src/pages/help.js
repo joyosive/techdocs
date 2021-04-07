@@ -32,7 +32,7 @@ function Home() {
                                 </div>
                                 <div className="card__body">
                                     <p>
-                                    Learn more using the <Link to={useBaseUrl('/docs/accordproject.html')}>documentation on this site.</Link>.
+                                    Learn more using the <Link to={useBaseUrl('/docs/accordproject')}>documentation on this site.</Link>.
                                     </p>
                                 </div>
                                 </div>

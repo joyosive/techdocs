@@ -1,0 +1,35 @@
+:root{
+  --ifm-color-primary-lightest: #233053;
+  --ifm-color-primary-lighter: #1F2B4A;
+  --ifm-color-primary-light: #1E2946;
+  --ifm-color-primary: #19c6c6;
+  --ifm-color-primary-dark: #18213A;
+  --ifm-color-primary-darker: #171F36;
+  --ifm-color-primary-darkest: #131A2D;
+  --ifm-font-family-base: Graphik,sans-serif;
+  --ifm-menu-link-padding-top: 15px;
+  --ifm-menu-link-padding-right: 4px;
+  --ifm-menu-link-padding-bottom: 15px;
+  --ifm-menu-link-padding-left: 15px;
+  --ifm-font-weight-normal: 500;
+  --ifm-navbar-sidebar-width: auto;
+  --ifm-navbar-background-color: #1b2540;
+  --ifm-dropdown-background-color: #1b2540;
+  --ifm-dropdown-link-color: #fff;
+  --ifm-link-color:#19c6c6; 
+  --ifm-navbar-link-color: #fff;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-pagination: #fff;
+  --ifm-menu-color: #fff;
+
+}
+html[data-theme='light'] {
+  --ifm-heading-color: #050c40;
+  --ifm-color-pagination: #050c40;
+  --ifm-menu-color-background-active: rgba(255,255,255,0.05);
+  --ifm-hover-overlay: rgba(255, 255, 255, 0.05);
+  --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.05);
+  /* any other colors you wish to overwrite */
+}

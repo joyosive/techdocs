@@ -7,6 +7,7 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import ReactDOM from 'react-dom';
+import GitHubButton from 'react-github-btn';
 
 function Footer() {
 
@@ -44,7 +45,7 @@ function Footer() {
             <h5>Docs</h5>
             <ul>
               <li>
-                <a href={siteConfig["siteConfig"]["baseUrl"] + 'docs/' + 'accordproject'}>Overview</a>
+                <a href={siteConfig["siteConfig"]["baseUrl"] + 'docs/'}>Overview</a>
               </li>
               <li>
                 <a href={siteConfig["siteConfig"]["baseUrl"] + 'docs/' + 'started-installation'}>Getting Started</a>
@@ -86,7 +87,7 @@ function Footer() {
                 <a href="https://github.com/accordproject">GitHub</a>
               </li>
               <li>
-                <a className="github-button" href={siteConfig["siteConfig"]["customFields"]["repoUrl"]} data-icon="octicon-star" data-count-href="/accordproject/cicero/stargazers" data-show-count={true} data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub"> Star </a>
+              <GitHubButton  href={siteConfig["siteConfig"]["customFields"]["repoUrl"]} data-icon="octicon-star" data-count-href="/accordproject/cicero/stargazers" data-show-count={true} data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub"> Star </GitHubButton>
               </li>
             </ul>
           </div>
