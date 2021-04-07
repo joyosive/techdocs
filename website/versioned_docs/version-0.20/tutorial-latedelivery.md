@@ -119,7 +119,7 @@ As explained in the error message, this is because the new template text uses a 
 
 To define this new variable, go to the `Model` tab, and change the `MiniLateDeliveryClause` type to include `o Double capPercentage`.
 
-![Advanced-Late-11](/docs/assets/advanced/late10b.png)
+<!-- ![Advanced-Late-11](/docs/assets/advanced/late10b.png) -->
 
 For convenience, you can copy-paste the new `MiniLateDeliveryClause` type from here:
 ```ergo

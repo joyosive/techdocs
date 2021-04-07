@@ -9,6 +9,7 @@ To get an better acquainted with Accord Project templates, the easiest way is th
 You can open template studio from anywhere in this documentation by clicking the [Try Online!](https://studio.accordproject.org) button located in the top-right of the page.
 :::
 
+## Template Studio Introductory Video
 The following video offers a tour of Template Studio and an introduction to the key concepts behind the Accord Project technology.
 
 <iframe src="https://player.vimeo.com/video/328933628" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

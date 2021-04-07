@@ -9,38 +9,38 @@ function Users() {
     const siteConfig = _siteConfig.siteConfig;
     if ((siteConfig.customFields.users || []).length === 0) {
         return null;
-      }
-      const editUrl = 'https://github.com/accordproject/techdocs/edit/master/website/siteConfig.js';
-      const showcase = siteConfig.customFields.users.map((user, i) => {
+    }
+    const editUrl = 'https://github.com/accordproject/techdocs/edit/master/website/siteConfig.js';
+    const showcase = siteConfig.customFields.users.map((user, i) => {
         return (
-          <a href={user.infoLink} key={i}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
+            <a href={user.infoLink} key={i}>
+                <img src={user.image} alt={user.caption} title={user.caption} />
+            </a>
         );
-      });
+    });
 
-      const returnVariable = (
-      <Layout
-        permalink="/"
-        title={siteConfig.title}
-        description={siteConfig.tagline}>
-        <main>
-            <div className="mainContainer">
-                <div className="conatiner" padding={['bottom', 'top']}>
-                    <div className="showcaseSection">
-                        <div className="prose">
-                        <h1>Who's Using This?</h1>
-                        <p>This project is used by the following companies</p>
+    const returnVariable = (
+        <Layout
+            permalink="/"
+            title={siteConfig.title}
+            description={siteConfig.tagline}>
+            <main>
+                <div className="mainContainer ">
+                    <div className="conatiner paddingTop paddingBottom">
+                        <div className="showcaseSection">
+                            <div className="prose">
+                                <h1>Who's Using This?</h1>
+                                <p>This project is used by the following companies</p>
+                            </div>
+                            <div className="logos">{showcase}</div>
+                            <p>Are you using this project?</p>
+                            <a href={editUrl} className="button">
+                                Add your company
+                            </a>
                         </div>
-                        <div className="logos">{showcase}</div>
-                        <p>Are you using this project?</p>
-                        <a href={editUrl} className="button">
-                        Add your company
-                        </a>
                     </div>
                 </div>
-            </div>
-        </main>
+            </main>
         </Layout>
     );
 
